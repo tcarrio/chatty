@@ -1,0 +1,21 @@
+pkgbase = chatty-bin
+	pkgdesc = Chatty is a Twitch Chat Client for Desktop written in Java featuring many Twitch specific features
+	pkgver = 0.11.0
+	pkgrel = 1
+	url = https://chatty.github.io/
+	arch = any
+	license = GPLv3
+	depends = java-runtime>=8
+	provides = chatty
+	conflicts = chatty
+	source = https://github.com/chatty/chatty/releases/download/v0.11/Chatty_0.11.zip
+	source = https://raw.githubusercontent.com/chatty/chatty/70926516d605936c33d5f62c06912a259f271954/LICENSE
+	source = chatty.desktop
+	source = chatty.png
+	sha256sums = 609c742afd7a848a4d87058559f7b819eeb7d4bccadeed13c3206cb1b9cc40de
+	sha256sums = 0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227
+	sha256sums = 6561fc3b86aeeed3ff36c76f7f8465824ba20299ef3ce7085b1cb4ab846ce2a3
+	sha256sums = 1d1ed8f6051376b362fad3fc086ccf538a42f92cf9b227550b49aadc4df7e307
+
+pkgname = chatty-bin
+

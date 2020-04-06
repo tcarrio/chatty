@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=java -jar /opt/chatty/Chatty.jar %f
+Type=Application
+Terminal=false
+Name=Chatty
+Comment=Chatty is a Twitch Chat Client for Desktop written in Java featuring many Twitch specific features
+Categories=InstantMessaging;Chat;Game
+StartupNotify=true
+Icon=chatty
